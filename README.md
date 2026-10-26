@@ -20,24 +20,5 @@ This academic analytics project explores customer behaviour across the Versace e
 
 Python, pandas, NumPy, matplotlib, seaborn, scikit-learn and mlxtend. Methods include exploratory data analysis, customer funnel analysis, and FP-Growth-based association rules.
 
-## Running the notebooks
 
-1. Install packages: `pip install -r requirements.txt`.
-2. Obtain authorized access to the datasets listed below and place them in the working directory (or update the notebook paths).
-3. Open notebooks in the order listed above. Some cells may depend on additional generated files or notebook-specific environment paths.
 
-Required input files (not distributed):
-
-- `IMA2026_Versace_Time_to_Purchase.csv`
-- `IMA2026_Versace_Cart_Abandonment.csv`
-- `IMA2026_Versace_MBA_Product_Level.csv`
-
-The cart-abandonment notebook also references `dataset_cleaned.xlsx`, which may be a generated/intermediate file.
-
-## Publication notes
-
-The uploaded notebook **outputs and execution counts have been cleared** in this public-ready copy to avoid accidentally exposing transaction-level records, user identifiers, or proprietary results. The code and markdown have been retained. See [`PUBLICATION_CHECKLIST.md`](PUBLICATION_CHECKLIST.md) before making this repository public.
-
-## Credits
-
-Academic group project. Add the full team credits and specify Alice Agazzi's individual contributions before public release. Versace is referenced as the subject of the academic case study; this repository is not an official Versace publication.
